@@ -1,0 +1,7 @@
+version: '3'
+services:
+  jupyterlab:
+    image: amalic/jupyterlab:latest
+    ports:
+      - target: 8888
+        published: 8888
